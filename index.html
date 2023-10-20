@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="icon" href="icon.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <section class="container">
+        <h1>Code Editor</h1>
+        
+        <div class="editor">
+            <div class="left">
+                <span><i class='bx bxl-html5'></i>HTML</span>
+                <button class="html-btn" onclick="copyCodeHtml()">Copy</button>
+                <button class="html-btn" id="lockUnlockhtml">Lock</button>
+                <textarea id="html-code" spellcheck="false"></textarea>
+
+                <span><i class='bx bxl-css3'></i>CSS</span>
+                <button class="css-btn" onclick="copyCodeCss()">Copy</button>
+                <button class="css-btn" id="lockUnlockcss">Lock</button>
+                <textarea id="css-code" spellcheck="false"></textarea>
+
+                <span><i class='bx bxl-javascript'></i>JavaScript</span>
+                <button class="js-btn" onclick="copyCodeJs()">Copy</button>
+                <button class="js-btn" id="lockUnlockjs">Lock</button>
+                <textarea id="js-code" spellcheck="false"></textarea>
+            </div>
+
+            <div class="right">
+                <span><i class='bx bx-play'></i>Output</span>
+                <button class="run-btn" onclick="run()">Save</button>
+                <iframe id="output"></iframe>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

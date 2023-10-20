@@ -12,9 +12,12 @@ The "Code Editor" project is a web-based application that I developed to provide
 To get started with the Code Editor, follow these steps:
 * Clone this repository or download the ZIP file.
 
-** git clone https://github.com/yourusername/code-editor.git
-** Open the index.html file in your web browser.
-** Start writing and editing code!
+* git clone https://github.com/yourusername/code-editor.git
+* Open the index.html file in your web browser.
+* Start writing and editing code!
 
 ### Customization
 * You can customize the Code Editor to fit your needs by modifying the HTML, CSS, and JavaScript files. Adjust the theme, add additional language support, or enhance the functionality as required.
+
+### Contributing
+* Contributions are welcome! If you have any ideas for improvements or find any issues, please open an issue or submit a pull request.
